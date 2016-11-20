@@ -37,10 +37,10 @@ Only two commands among six are correct
 (you can see this by checking the message box).
 
 Example:
-  Command 1: attack-the-system
+  Command 1: AAAA
     Start : 0x401002
     End   : 0x444039
-  Command 2: delete-the-system
+  Command 2: BBBB
     Start : 0x401002
     End   : 0x44403a
   ...
@@ -55,14 +55,14 @@ Example:
     End   : 
 <--
 
-4. Please find two URLs that the malware connects
+3. Please find two URLs that the malware connects
 on receiving the correct command. Note that the URL does not
 contain vcs.gtisc.gatech.edu (this is for the C2 server).
 Moreover, please find the full URL like following:
 
 Example:
-  URL1: https://xxx.gtisc.gatech.edu/XXXXaaaabbbbccccddddeeeeffffgggghhhh
-  URL2: https://yyy.gtisc.gatech.edu/YYYYbbbbccccddddeeeeffffgggghhhh1111
+  URL1: http://xxx.gtisc.gatech.edu/XXXXaaaabbbbccccddddeeeeffffgggghhhh
+  URL2: http://yyy.gtisc.gatech.edu/YYYYbbbbccccddddeeeeffffgggghhhh1111
 
 -->
   URL1:
