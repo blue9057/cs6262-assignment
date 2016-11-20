@@ -1,0 +1,70 @@
+Assignment Questionnaire
+========================
+
+NOTE: DO NOT DELETE --> and <--, and place your answers within the marks.
+  Example:
+    -->
+      130.207.7.210, scouter.cc.gatech.edu
+    <--
+
+
+Info
+====
+
+-->
+  Your GT Login ID:
+  Your Name:
+<--
+
+Complex
+=======
+
+1. Please list all upper case commands that can be interpreted by
+the malwarein the --> and <--.
+In total, six commands can be interpreted by the malware.
+
+Example:
+  Commands: AAAA, BBBB, CCCC, DDDD ... (separeted with a comma)
+
+-->
+  Commands:
+<--
+
+
+2. What are the correct commands and what are the start and
+the end address of the command?
+Only two commands among six are correct
+(you can see this by checking the message box).
+
+Example:
+  Command 1: attack-the-system
+    Start : 0x401002
+    End   : 0x444039
+  Command 2: delete-the-system
+    Start : 0x401002
+    End   : 0x44403a
+  ...
+
+
+-->
+  Command 1:
+    Start :
+    End   : 
+  Command 2: 
+    Start : 
+    End   : 
+<--
+
+4. Please find two URLs that the malware connects
+on receiving the correct command. Note that the URL does not
+contain vcs.gtisc.gatech.edu (this is for the C2 server).
+Moreover, please find the full URL like following:
+
+Example:
+  URL1: https://xxx.gtisc.gatech.edu/XXXXaaaabbbbccccddddeeeeffffgggghhhh
+  URL2: https://yyy.gtisc.gatech.edu/YYYYbbbbccccddddeeeeffffgggghhhh1111
+
+-->
+  URL1:
+  URL2:
+<--

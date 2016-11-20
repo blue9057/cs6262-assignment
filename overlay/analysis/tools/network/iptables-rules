@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Importing iptables rules"
+sudo iptables -t nat -A PREROUTING -p tcp -s 192.168.133.2 -d 143.215.130.79 --dport 80 -j DNAT --to 192.168.133.1:80
+sudo iptables -t nat -A PREROUTING -p tcp -s 192.168.133.2 -d 128.61.240.66 --dport 80 -j DNAT --to 192.168.133.1:80
